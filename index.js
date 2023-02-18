@@ -9,5 +9,5 @@ console.log("I'm ready!");
 
 
 /*
-➜  lab-javascript-basic-algorithms git:(master) ✗ node index.js
+➜   lab-javascript-basic-algorithms git:(master) ✗ node index.js
 */
