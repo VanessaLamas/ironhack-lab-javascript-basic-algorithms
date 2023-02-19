@@ -28,6 +28,13 @@ console.log(addSpace(hacker1));
 
 
 
+let hacker1Reverse = "";
+    for (let i = hacker1.length - 1; i >= 0; i--) {
+        hacker1Reverse += hacker1[i];
+}
+console.log(hacker1Reverse);
+
+
 
 
 
