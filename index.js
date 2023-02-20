@@ -39,7 +39,15 @@ var inputArr = ["The driver's name goes first.", "Yo, the navigator goes first d
 displayOutput = inputArr;
 var Sorted = ["The driver's name goes first.", "Yo, the navigator goes first definitely.", "What?! You both have the same name?"]
 
-
+function Printlexiographically(phrase, arr) {
+  arr.sort();
+  for (let i = 0; i < phrase; i++) {
+    console.log(arr[i]);
+  }
+}
+let arr = [ "The driver's name goes first.", "Yo, the navigator goes first definitely.", "What?! You both have the same name?" ];
+let phrase = arr.length;
+Printlexiographically(phrase, arr);
 
 
 
