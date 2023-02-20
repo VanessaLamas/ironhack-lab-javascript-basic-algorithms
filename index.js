@@ -16,7 +16,7 @@ else if (hacker1.length < hacker2.length) {console.log(`It seems that the naviga
     console.log (`Wow, you both have equally long names, ${hacker1.length} characters!`);
 }
 
-// Iteration 3: Loops
+// Iteration 3: Loops 1
 function addSpace(namingSpace) {
     let result = '';
     for (let i = 0; i < hacker1.length; i++) {
@@ -26,15 +26,18 @@ function addSpace(namingSpace) {
 }
 console.log(addSpace(hacker1));
 
-
-
+// Iteration 3: Loops 2
 let hacker1Reverse = "";
     for (let i = hacker1.length - 1; i >= 0; i--) {
         hacker1Reverse += hacker1[i];
 }
 console.log(hacker1Reverse);
 
+// Iteration 3: Loops 3
 
+var inputArr = ["The driver's name goes first.", "Yo, the navigator goes first definitely.", "What?! You both have the same name?"]
+displayOutput = inputArr;
+var Sorted = ["The driver's name goes first.", "Yo, the navigator goes first definitely.", "What?! You both have the same name?"]
 
 
 
