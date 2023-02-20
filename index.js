@@ -34,11 +34,6 @@ let hacker1Reverse = "";
 console.log(hacker1Reverse);
 
 // Iteration 3: Loops 3
-
-var inputArr = ["The driver's name goes first.", "Yo, the navigator goes first definitely.", "What?! You both have the same name?"]
-displayOutput = inputArr;
-var Sorted = ["The driver's name goes first.", "Yo, the navigator goes first definitely.", "What?! You both have the same name?"]
-
 function Printlexiographically(phrase, arr) {
   arr.sort();
   for (let i = 0; i < phrase; i++) {
